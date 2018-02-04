@@ -15,4 +15,6 @@ public class Rook extends ChessFigure {
         }
         return false;
     }
+
+    //Commented By Armen
 }
