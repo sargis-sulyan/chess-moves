@@ -17,6 +17,7 @@ public class Main {
         Rook rook3 = new Rook("white");
         Rook rook4 = new Rook("green");
         Rook rook5 = new Rook("black");
+
         ChessField field1 = new ChessField(1,8);
         ChessField field2 = new ChessField(7,9);
 

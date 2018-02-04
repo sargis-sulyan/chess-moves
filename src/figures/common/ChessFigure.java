@@ -1,6 +1,8 @@
 package figures.common;
 
-public class ChessFigure {
+import field.ChessField;
+
+public abstract class ChessFigure {
     String figureColor;
 
     public ChessFigure(String figureColor) {
@@ -14,4 +16,6 @@ public class ChessFigure {
     public void setFigureColor(String figureColor) {
         this.figureColor = figureColor;
     }
+
+    public abstract boolean isValidMove(ChessField field1, ChessField field2);
 }
